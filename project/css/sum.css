@@ -1,0 +1,64 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin:0
+}
+
+section{
+    width:50%;
+    margin:5px auto;
+}
+
+div.zone{
+    border-radius: 10px;
+    border:1px solid black;
+    margin: 5px;
+    padding:5px;
+}
+.zone > p{
+    font-weight: bold;
+}
+.head{
+    font-weight: bold;
+}
+.remain-info{
+    font-weight: normal;
+}
+
+.btn{
+    display:flex;
+    width:50%;
+    /* border:1px solid black; */
+    margin:3px auto;
+    /* border-radius: 5px; */
+}
+
+#confirmed,#edit{
+    width:50%;
+}
+
+form > button{
+    display:block;
+    margin:5px auto;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+}
+
+#cancel{
+    display: block !important;
+    margin-left: 5px !important;
+    background: rgba(255,0,0,50%);
+    border:1px solid black;
+    border-radius:3px;
+    width:100px;
+}
+#cancel:hover{
+    background: red;
+    cursor: pointer;
+}

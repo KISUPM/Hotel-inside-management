@@ -1,0 +1,26 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightslategray; */
+    margin:0;
+}
+main{
+    display:flex;
+}
+
+main > section{
+    border:1px solid black;
+}
+
+#nav{
+    width:10%;
+}
+
+#nav button{
+    display: block;;
+}
+
+#content{
+    width:90%;
+    padding:5px;
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    width:100%;
+}
+table,td,tr,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td,tr,th{
+    height:30px;
+    padding: 5px;
+}
+
+th{
+    background:rgb(195, 195, 195);
+    width:fit-content;
+}
+
+form{
+    display:inline;
+    width:50%;
+}
+
+input{
+    width: fit-content;
+}
+
+input:read-only{
+    background:rgb(207, 206, 206);
+    color:grey;
+}

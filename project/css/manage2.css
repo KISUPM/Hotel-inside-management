@@ -1,0 +1,64 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    width:100%;
+}
+table,td,tr,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td,tr,th{
+    height:30px;
+    padding: 5px;
+}
+
+th{
+    background:rgb(195, 195, 195);
+}
+
+form{
+    display:inline;
+    width:50%;
+}
+
+button{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:5px;
+    font-size:16px;
+    cursor: pointer;
+    margin:5px 30px;
+}
+
+#delete{
+    background:rgb(255, 131, 131);
+}
+
+#delete:hover{
+    background:red;
+    color:white;
+}
+
+#edit{
+    background:rgb(179, 242, 255);
+}
+
+#edit:hover{
+    background:blue;
+    color:white;
+}
+
+#btn-group{
+    padding:5px;
+    display:block;
+    width:fit-content;
+    margin:30px auto;
+}

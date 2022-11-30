@@ -1,0 +1,56 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h1{
+    text-align: center;
+}
+
+form{
+    border:1px solid black;
+    padding:5px;
+    width:50%;
+    margin:5px auto;
+}
+
+input:read-only{
+    color:gray;
+}
+
+label,input,p{
+    width:50%;
+    margin:5px auto;
+}
+
+#main > button{
+    display: block;
+    margin:5px auto;
+    width:150px;
+    height:50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#main > button:hover{
+    background: gray;
+    border:1px solid black;
+}
+
+#cancel{
+    background: rgba(255,0,0,50%);
+    border:1px solid black;
+    border-radius:3px;
+    width:100px;
+    cursor: pointer;
+}
+#cancel:hover{
+    background: red;
+}
+
+a{
+    display:block;
+    color:blue;
+    text-align: center;
+    margin:0 auto;
+}

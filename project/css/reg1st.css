@@ -1,0 +1,91 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin:0
+}
+h3{
+    text-align: center;
+}
+section{
+    display:flex;
+    /* width:fit-content; */
+    margin:5px auto;
+}
+
+form{
+    margin: 5px auto;
+}
+
+#main{
+    width:fit-content;
+}
+
+p{
+    margin:5px auto;
+}
+.zone{
+    border:1px solid black;
+    padding:10px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+input,label{
+    display:block;
+}
+input{
+    width: 250px;
+}
+input:invalid {
+    border:2px solid red;
+}
+
+input:valid{
+    border:2px solid green;
+}
+
+span#info-required{
+    color:red;
+    font-weight: bold;
+}
+input.pin {
+    -webkit-text-security: disc;
+}
+
+#submit{
+    display:block;
+    width: 100px;
+    height:50px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border:1px solid gray;
+}
+#submit:hover{
+    background:gray;
+    border:1px solid black;
+}
+
+#cancel{
+    background: rgba(255,0,0,50%);
+    border:1px solid black;
+    border-radius:3px;
+    width:100px;
+}
+#cancel:hover{
+    background: red;
+}
+
+.id-type{
+    display:inline;
+    text-align: center;
+}
+
+.input-id-type{
+    display:inline;
+    width:fit-content;
+}

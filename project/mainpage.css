@@ -1,0 +1,53 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    border:1px dotted lightsalmon;
+    margin:0;
+}
+h1{
+    font-size:48px;
+}
+h1,label{
+    text-align: center;
+}
+.head{
+    font-weight: bold;
+}
+
+input,label,button{
+    display:block;
+    margin:5px auto;
+}
+
+.box > p{
+    margin: 5px auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+}
+
+#header{
+    display: block;
+}
+#nav{
+    width:10%;
+    /* padding:10px; */
+}
+
+#content{
+    width:90%;
+}
+
+#nav,#content{
+    display: inline;
+}

@@ -1,0 +1,31 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h2,p,label{
+    text-align: center;
+}
+form{
+    border:1px solid black;
+    border-radius: 7px;
+    padding:5px;
+    width:40%;
+    margin:5px auto;
+}
+
+#block-outer{
+    width:70%;
+    margin:0 auto;
+}
+
+#block-inner{
+    width:70%;
+    padding:5px;
+    margin:0px auto;
+    /* border:1px solid black; */
+}
+
+#block-inner > button{
+    width:100px;
+}

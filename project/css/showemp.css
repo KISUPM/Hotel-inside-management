@@ -1,0 +1,59 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+table{
+    width:100%;
+}
+table,td,tr,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td,tr,th{
+    height:30px;
+    padding: 5px;
+}
+
+th{
+    background:rgb(195, 195, 195);
+}
+
+tr:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+tr:hover{
+    background:rgb(226, 252, 255);
+}
+
+a,a:visited{
+    color:blue;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+}
+
+#htext{
+    position:relative;
+    width:100%;
+    left: 0;
+}
+
+#status{
+    position:absolute;
+    right: 0;
+}
+
+.reg{
+ border:none !important;
+}
+
+.reg:hover{
+    background:rgb(226, 252, 255);
+    text-decoration: underline;
+}

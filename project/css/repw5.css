@@ -1,0 +1,40 @@
+*{
+    font-family: 'Sarabun', sans-serif;
+    padding: 0;
+    /* border:1px dotted lightsalmon; */
+}
+h1{
+    text-align: center;
+}
+main{
+    width: 40%;
+    margin: 0 auto;
+    padding:5px;
+}
+
+p{
+    margin:5px auto;
+}
+
+div{
+    padding:5px;
+    width:50%;
+    border:1px solid black;
+    border-radius: 5px;
+    margin:10px auto;
+}
+form > label,p{
+    width:70%;
+    margin:5px auto;
+}
+form > input{
+    display:block;
+    width:70%;
+    margin:5px auto
+}
+button{
+    display:block;
+    height:30px;
+    width:100px;
+    margin: 5px auto;
+}
